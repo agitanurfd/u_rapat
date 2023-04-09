@@ -20,10 +20,6 @@ export let isiTabel =
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-500 text-left">#JURUSAN#</th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-#col#-500 text-left">#DATE_TIME#</th>
     <th class="whitespace-nowrap px-4 bg-white text-left">
-        <div class="w-auto p-2">
-        <p class="text-xs font-semibold text-coolGray-800">#JAMMASUK#</p>
-        <p class="text-xs font-medium text-coolGray-500">#JAMKELUAR#</p>
-        </div>
     </th>
     <th class="whitespace-nowrap pr-4 bg-white text-sm font-medium text-coolGray-800">
         <svg class="ml-auto" width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
