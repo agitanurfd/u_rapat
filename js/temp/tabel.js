@@ -16,7 +16,7 @@ export let isiTabel =
         </div>
     </th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#TAMU#</th>
-    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-center">#NO_HP_TAMU#</th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#NO_HP_TAMU#</th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-500 text-left">#JURUSAN#</th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-#col#-500 text-left">#DATE_TIME#</th>
     <th class="whitespace-nowrap px-4 bg-white text-left">
