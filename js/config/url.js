@@ -1,1 +1,0 @@
-export let urlAPI = "https://agita.herokuapp.com/undanganrapat";
