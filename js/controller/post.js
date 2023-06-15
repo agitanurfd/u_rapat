@@ -4,9 +4,9 @@ import { urlPOST, AmbilResponse} from "../config/url_post.js";
 
 
 function pushData(){
-    console.log(getValue("location"))
+    console.log(getValue("lokasi"))
     let data = {
-        location : getValue("location"),
+        lokasi : getValue("lokasi"),
         phone_number : getValue("phone_number"),
         biodata : {
             nama : getValue("nama"),
