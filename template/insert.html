@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
   <link rel="icon" type="image/png" sizes="32x32" href="../shuffle-for-tailwind.png">
   <script src="../js/main.js"></script>
+  <script type="module" src="../js/controller/post.js"></script>
 </head>
 
 <body class="antialiased bg-body text-body font-body">
@@ -254,10 +255,38 @@
                     <div class="w-full md:w-9/12">
                       <div class="flex flex-wrap -m-3">
                         <div class="w-full md:w-1/3 p-3">
+                          <p class="text-sm text-coolGray-800 font-semibold">Location</p>
+                        </div>
+                        <div class="w-full md:flex-1 p-3">
+                          <input id="location"
+                            class="w-full px-4 py-2.5 text-base text-coolGray-900 font-normal outline-none focus:border-green-500 border border-coolGray-200 rounded-lg shadow-input"
+                            type="text" placeholder="Location">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="py-6 border-b border-coolGray-100">
+                    <div class="w-full md:w-9/12">
+                      <div class="flex flex-wrap -m-3">
+                        <div class="w-full md:w-1/3 p-3">
+                          <p class="text-sm text-coolGray-800 font-semibold">Nomor HP</p>
+                        </div>
+                        <div class="w-full md:flex-1 p-3">
+                          <input id="phone_number"
+                            class="w-full px-4 py-2.5 text-base text-coolGray-900 font-normal outline-none focus:border-green-500 border border-coolGray-200 rounded-lg shadow-input"
+                            type="text" placeholder="Nomor HP">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="py-6 border-b border-coolGray-100">
+                    <div class="w-full md:w-9/12">
+                      <div class="flex flex-wrap -m-3">
+                        <div class="w-full md:w-1/3 p-3">
                           <p class="text-sm text-coolGray-800 font-semibold">Nama</p>
                         </div>
                         <div class="w-full md:flex-1 p-3">
-                          <input id="Nama"
+                          <input id="nama"
                             class="w-full px-4 py-2.5 text-base text-coolGray-900 font-normal outline-none focus:border-green-500 border border-coolGray-200 rounded-lg shadow-input"
                             type="text" placeholder="Nama">
                         </div>
@@ -271,7 +300,7 @@
                           <p class="text-sm text-coolGray-800 font-semibold">Jabatan</p>
                         </div>
                         <div class="w-full md:flex-1 p-3">
-                          <input id="Jabatan"
+                          <input id="jabatan"
                             class="w-full px-4 py-2.5 text-base text-coolGray-900 font-normal outline-none focus:border-green-500 border border-coolGray-200 rounded-lg shadow-input"
                             type="text" placeholder="Jabatan">
                         </div>
@@ -286,7 +315,7 @@
                           <p class="text-sm text-coolGray-800 font-semibold">No HP</p>
                         </div>
                         <div class="w-full md:flex-1 p-3">
-                          <input id="No HP"
+                          <input id="phone_number"
                             class="w-full px-4 py-2.5 text-base text-coolGray-900 font-normal outline-none focus:border-green-500 border border-coolGray-200 rounded-lg shadow-input"
                             type="text" placeholder="No HP">
                         </div>
@@ -301,7 +330,7 @@
                           <p class="text-sm text-coolGray-800 font-semibold">Jurusan</p>
                         </div>
                         <div class="w-full md:flex-1 p-3">
-                          <input id="Jurusan"
+                          <input id="jurusan"
                             class="w-full px-4 py-2.5 text-base text-coolGray-900 font-normal outline-none focus:border-green-500 border border-coolGray-200 rounded-lg shadow-input"
                             type="text" placeholder="Jurusan">
                         </div>
@@ -328,7 +357,6 @@
       </div>
     </section>
   </div>
-  <script type="module" src="../js/controller/post.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
   <script src="../js/charts-demo.js"></script>
 </body>
